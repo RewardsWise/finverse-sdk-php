@@ -342,6 +342,14 @@ class Institution implements ModelInterface, ArrayAccess, \JsonSerializable
     public const PRODUCTS_SUPPORTED_ACCOUNT_NUMBERS = 'ACCOUNT_NUMBERS';
     public const PRODUCTS_SUPPORTED_IDENTITY = 'IDENTITY';
     public const PRODUCTS_SUPPORTED_AUTO_DEBIT_SETUP = 'AUTO_DEBIT_SETUP';
+    public const PRODUCTS_SUPPORTED_PAYOUTS = 'PAYOUTS';
+    public const PRODUCTS_SUPPORTED_PAYMENTS = 'PAYMENTS';
+    public const PRODUCTS_SUPPORTED_BALANCE_HISTORY = 'BALANCE_HISTORY';
+    public const PRODUCTS_SUPPORTED_HISTORICAL_TRANSACTIONS = 'HISTORICAL_TRANSACTIONS';
+    public const PRODUCTS_SUPPORTED_CARD_DETAILS = 'CARD_DETAILS';
+
+
+
     public const USER_TYPE_PERSONAL = 'PERSONAL';
     public const USER_TYPE_INDIVIDUAL = 'INDIVIDUAL';
     public const USER_TYPE_BUSINESS = 'BUSINESS';
@@ -390,6 +398,11 @@ class Institution implements ModelInterface, ArrayAccess, \JsonSerializable
             self::PRODUCTS_SUPPORTED_ACCOUNT_NUMBERS,
             self::PRODUCTS_SUPPORTED_IDENTITY,
             self::PRODUCTS_SUPPORTED_AUTO_DEBIT_SETUP,
+            self::PRODUCTS_SUPPORTED_PAYOUTS,
+            self::PRODUCTS_SUPPORTED_PAYMENTS,
+            self::PRODUCTS_SUPPORTED_BALANCE_HISTORY,
+            self::PRODUCTS_SUPPORTED_HISTORICAL_TRANSACTIONS,
+            self::PRODUCTS_SUPPORTED_CARD_DETAILS,
         ];
     }
 
