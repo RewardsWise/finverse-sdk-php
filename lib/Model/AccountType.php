@@ -240,6 +240,8 @@ class AccountType implements ModelInterface, ArrayAccess, \JsonSerializable
     public const TYPE_INVESTMENT = 'INVESTMENT';
     public const TYPE_LOAN = 'LOAN';
     public const TYPE_UNKNOWN = 'UNKNOWN';
+    public const TYPE_OTHER = 'OTHER';
+
     public const SUBTYPE_CURRENT = 'CURRENT';
     public const SUBTYPE_SAVINGS = 'SAVINGS';
     public const SUBTYPE_TIME_DEPOSIT = 'TIME_DEPOSIT';
@@ -268,6 +270,7 @@ class AccountType implements ModelInterface, ArrayAccess, \JsonSerializable
             self::TYPE_INVESTMENT,
             self::TYPE_LOAN,
             self::TYPE_UNKNOWN,
+            self::TYPE_OTHER,
         ];
     }
 
